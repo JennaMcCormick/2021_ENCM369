@@ -1,3 +1,2 @@
 firstname,lastname,email,git_username,respitory_name
 Jenna,McCormick,jenna.mccormick@ucalgary.ca,jennamccormick,2021_ENCM369
-ENCM369,Jason Long,jrlong@ucalgary.ca,UofCencm369,2021_ENCM369 
