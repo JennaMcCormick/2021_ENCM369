@@ -5,3 +5,4 @@ Netra,Patel,netra.patel@ucalgary.ca,Netra-Patel,2021_ENCM369
 Goni,Matzliach,goni.matzliach@ucalgary.ca,goniUofC,2021_ENCM369
 Ivan Paul,Serrano,ivanpaul.serrano@ucalgary.ca,serranoip,2021_ENCM369
 Nadia,Duarte,nadia.duarteamador@ucalgary.ca,NadiaDuarteAmador,2021_ENCM369
+Viet Trung,Dau,viettrung.dau@ucalgary.ca,vtdau,2021_ENCM369
