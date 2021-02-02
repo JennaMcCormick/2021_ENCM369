@@ -31,9 +31,9 @@
 [v _ClockSetup ClockSetup `(v  1 e 1 0 ]
 "89
 [v _GpioSetup GpioSetup `(v  1 e 1 0 ]
-"108
+"109
 [v _SysTickSetup SysTickSetup `(v  1 e 1 0 ]
-"130
+"131
 [v _SystemSleep SystemSleep `(v  1 e 1 0 ]
 "35 C:\Users\jenna\Documents\GitHub\2021_ENCM369\main.c
 [v _main main `(v  1 e 1 0 ]
@@ -41,6 +41,13 @@
 [v _UserAppInitialize UserAppInitialize `(v  1 e 1 0 ]
 "95
 [v _UserAppRun UserAppRun `(v  1 e 1 0 ]
+"37918 C:/Program Files/Microchip/MPLABX/v5_45/packs/Microchip/PIC18F-Q_DFP/1.8.154/xc8\pic\include\proc\pic18f27q43.h
+"37918
+[v _ANSELA ANSELA `VEuc  1 e 1 @1024 ]
+"45585
+[v _LATA LATA `VEuc  1 e 1 @1214 ]
+"45840
+[v _TRISA TRISA `VEuc  1 e 1 @1222 ]
 "14 C:\Users\jenna\Documents\GitHub\2021_ENCM369\main.c
 [v _G_u32SystemTime1ms G_u32SystemTime1ms `VEul  1 e 4 0 ]
 "15
@@ -57,27 +64,29 @@
 "95 C:\Users\jenna\Documents\GitHub\2021_ENCM369\user_app.c
 [v _UserAppRun UserAppRun `(v  1 e 1 0 ]
 {
-"99
+"97
+[v UserAppRun@u8Counter u8Counter `uc  1 s 1 u8Counter ]
+"108
 } 0
 "76
 [v _UserAppInitialize UserAppInitialize `(v  1 e 1 0 ]
 {
 "80
 } 0
-"130 C:\Users\jenna\Documents\GitHub\2021_ENCM369\encm369_pic18.c
+"131 C:\Users\jenna\Documents\GitHub\2021_ENCM369\encm369_pic18.c
 [v _SystemSleep SystemSleep `(v  1 e 1 0 ]
 {
-"133
+"134
 } 0
-"108
+"109
 [v _SysTickSetup SysTickSetup `(v  1 e 1 0 ]
 {
-"113
+"114
 } 0
 "89
 [v _GpioSetup GpioSetup `(v  1 e 1 0 ]
 {
-"93
+"94
 } 0
 "70
 [v _ClockSetup ClockSetup `(v  1 e 1 0 ]

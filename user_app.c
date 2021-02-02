@@ -94,8 +94,17 @@ Promises:
 */
 void UserAppRun(void)
 {
-
-
+    static u8 u8Counter = 0x80; //turns RA7 on
+    while(u8Counter < 0xBF) 
+    {
+        LATA = u8Counter;    //Turns pins on based on number received
+        _delay(2500000);     //Delays 250ms
+        u8Counter++;         //Continues till next number
+        if(u8Counter == 0xBF) 
+        {
+            u8Counter = 0x80; // Resets loop
+        }
+    }
 } /* end UserAppRun */
 
 

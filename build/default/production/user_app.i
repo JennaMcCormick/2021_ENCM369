@@ -27315,6 +27315,15 @@ void UserAppInitialize(void)
 # 95 "user_app.c"
 void UserAppRun(void)
 {
-
-
+    static u8 u8Counter = 0x80;
+    while(u8Counter < 0xBF)
+    {
+        LATA = u8Counter;
+        _delay(2500000);
+        u8Counter++;
+        if(u8Counter == 0xBF)
+        {
+            u8Counter = 0x80;
+        }
+    }
 }
