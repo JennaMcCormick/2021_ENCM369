@@ -94,6 +94,14 @@ Promises:
 */
 void UserAppRun(void)
 {
+    static  u32 u32Counter = 0x80;
+    static u32 u32Value = 0x00;
+    if (u32Value == 0x01 && RB5 == 0x00) {
+        u32Counter++;
+        LATA = u32Counter;
+    }
+    u32Value = RB5;
+    _delay(5000);
 
 
 } /* end UserAppRun */
