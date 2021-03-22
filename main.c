@@ -53,27 +53,23 @@ void main(void)
   {
     /* Drivers */
        
-    /* Applications */
-    UserAppRun();
-   
+   /* Applications */
+#if 0  //timer used for triangle/sawooth wave
+      TimeXus(2);
+      while(PIR3bits.TMR0IF ==0x00);
+      DAC1DATL +=4;
+#endif      
+#if 1      //timer for sinewave 
      
+    UserAppRun();
     /* System sleep */
     HEARTBEAT_OFF();
     SystemSleep();
-    TimeXus(1000);
-    while(1){
-        if(PIR3 == 0x80) {
-            break;
-        }
-    }    
-    HEARTBEAT_ON();
-    TimeXus(1000);
-    while(1) {
-        if(PIR3 == 0x80){
-            break;
-        }
+    TimeXus(10);   //delay that obtains frequency closest to 1.00kHz
+    while((PIR3 & 0x80) == 0x00){
     }
-    
+    HEARTBEAT_ON();
+#endif
   } /* end while(1) main super loop */
   
 } /* end main() */

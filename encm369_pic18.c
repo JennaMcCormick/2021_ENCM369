@@ -91,6 +91,8 @@ void GpioSetup(void)
   LATA = 0x00; //set PORTS to off at first
   ANSELA = 0x00; //0 means digital function, 1 means analog function
   TRISA = 0x00; // set to 1 = input, 0 = output
+  DAC1CON = 0xA0; // [7] 1 (Enable), [6], X, [5:4] 10, (DACXOUT on pin 2 enabled) [3:2] 00 (VDD positive reference), [1] X, [0] 0 (VSS Negative Reference)
+  
 } /* end GpioSetup() */
 
 
