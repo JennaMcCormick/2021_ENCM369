@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project>
+  <executable name="dist/default/production\PIC_Activity7.production.hex">
+    <memory name="program">
+      <units>bytes</units>
+      <length>131072</length>
+      <used>1230</used>
+      <free>129842</free>
+    </memory>
+    <memory name="data">
+      <units>bytes</units>
+      <length>8448</length>
+      <used>407</used>
+      <free>8041</free>
+    </memory>
+  </executable>
+</project>
